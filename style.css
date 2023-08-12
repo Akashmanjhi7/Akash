@@ -51,10 +51,23 @@ html,body{
     border-radius: 5px;
 }
 
+#btn{
+    text-decoration: none;
+    background-color: rgb(32, 95, 32);
+    padding: 25px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: rgb(7, 72, 7);
+    box-shadow: 5px 5px 20px rgb(16, 125, 32);
+}
 #pannelbtm{
     width: 100%;
     height:calc(100% - 100px);  
-    padding: 10px;  
+    padding: 9px 3px  ;
     display: flex;
     align-items: center;
     justify-content: center;

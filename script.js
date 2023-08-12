@@ -28,7 +28,7 @@ function scorevalue(){
 function createbubble(){
     let bubble= " "
 
-for(i=1;i<141;i++){
+for(i=1;i<130;i++){
   let ran =Math.floor(Math.random()*10)
   bubble +=`  <div class="bubble">${ran}</div>`
 }
